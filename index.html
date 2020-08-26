@@ -1,0 +1,33 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+    <div>
+      <div class="centerDiv">
+    <textarea placeholder="Paste scrambles here, don't add empty lines or it will count like a scramble (i'm a bad coder)" id="scrambles"></textarea>
+         </div>
+        <div class="centerDiv">
+        <input type="hidden" id="button" class="button" value="Send scrambles">
+        </div>
+     
+       
+      <div class="centerDiv times">
+        <input onchange="timesAdded=false;" type="hidden" id="showc"><p id="c"></p>
+        <input type="hidden" style="font-size: 20px;" class="button" id="button2" value="Delete last">
+      </div>
+      <div class="centerDiv times" id="times">
+        
+      </div>
+      <div class="centerDiv" id="sketch-holder">
+      <!-- Our sketch will go here! -->
+    </div>
+      
+       </div>
+    <script src="sketch.js"></script>
+  
+
+</body></html>
